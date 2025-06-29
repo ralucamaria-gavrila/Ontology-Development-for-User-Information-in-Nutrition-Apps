@@ -1,0 +1,3518 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/raluca/ontologies/2025/5/research-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/raluca/ontologies/2025/5/research-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/raluca/ontologies/2025/5/research-ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Account"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergy_Severity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#App_Preference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body_Composition_Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CalorieBudget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contextual_Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotional_Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntermediateWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_Meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meal_As_Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meal_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotivationLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physiological_Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Previous_Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychological_Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateOfTheHabit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Lifestyle_Factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causesAllergy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#computesCalorieBudget"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#experiencesBarrier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccount"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActivityLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAllergy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAppPreference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCalorieBudget"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsumedCaloriesToday"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHabit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHealthStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredientWeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInterferenceWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIntermediateWeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLifestyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMealType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMotivation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMotivationLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSeverity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTrigger"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUserGoal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUserLifestyleFactors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWaterIntake"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeightManagementExperience"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBasedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#logsMeal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCalories"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasChildren"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDesiredWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFrequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHealthCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasImportantEventComingUp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInitialMotivation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberOfMealsPerDay"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberOfSnacksPerDay"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPassword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRemainingCalories"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetCalories"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUsername"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWorkSchedule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isGeneratingMeals"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isNursing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isPregnant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isTrackingMeals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Account_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Account_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Almond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#App_Preference_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#App_Preference_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Application_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Application_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boredom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calorie_Budget_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calorie_Budget_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cashew"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celebration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celiac_Disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Declining"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dehydration_Mistaken_For_Hunger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Easy_Access_To_Snacks_At_Home_Or_At_Work"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Egg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Egg_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Events_With_Tempting_Food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Extra_Active"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fish_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flexitarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gain_Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habit_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habit_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habit_003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habit_004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hazelnut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Height_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Height_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypertension"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Illness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inactive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingredient_Weight_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Injury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IntermediateWeight_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IntermediateWeight_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ketogenic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lack_Of_Time_To_Cook_At_Home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lightly_Active"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lobster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loneliness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lose_Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low-carb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Blood_Sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Motivation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maintain_Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meal_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meal_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mediterranean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mild"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milk_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderately_Active"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Motivation_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Health_Conditions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Special_Diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Trigger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Notifications_From_Delivery_Apps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obesity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Often_Family_Meals_With_Unhealthy_Dishes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Overweight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PCOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paleo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peanut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peanut_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peer_Pressure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pescaterian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pistachio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prefer_not_to_say"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sedentary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sesame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sesame_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shellfish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shellfish_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shrimp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soybean_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thyroid_Disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Travelling_At_All_Times"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Underweight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unsupportive_Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Goal_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Goal_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegetarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Active"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Walnut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Watching_TV_While_Eating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight_Gain_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight_Loss_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight_Maintainence_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wheat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wheat_Allergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cups"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#moderate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cow&apos;s_Milk"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Activity_Level"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Extra_Active"/>
+            <NamedIndividual IRI="#Lightly_Active"/>
+            <NamedIndividual IRI="#Moderately_Active"/>
+            <NamedIndividual IRI="#Sedentary"/>
+            <NamedIndividual IRI="#Very_Active"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Body_Composition_Goal"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Gain_Weight"/>
+            <NamedIndividual IRI="#Lose_Weight"/>
+            <NamedIndividual IRI="#Maintain_Weight"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gender"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Female"/>
+            <NamedIndividual IRI="#Male"/>
+            <NamedIndividual IRI="#Prefer_not_to_say"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Weight_Gain_Experience"/>
+            <NamedIndividual IRI="#Weight_Loss_Experience"/>
+            <NamedIndividual IRI="#Weight_Maintainence_Experience"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Activity_Level"/>
+        <Class IRI="#User_Lifestyle_Factors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allergen"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body_Composition_Goal"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contextual_Trigger"/>
+        <Class IRI="#Triggers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet"/>
+        <Class IRI="#User_Lifestyle_Factors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet_Type"/>
+        <Class IRI="#Diet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotional_Trigger"/>
+        <Class IRI="#Triggers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Barrier"/>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#User_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Status"/>
+        <Class IRI="#User_Lifestyle_Factors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Height"/>
+        <Class IRI="#User_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntermediateWeight"/>
+        <Class IRI="#Weight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_Meal"/>
+        <Class IRI="#Meal_As_Input"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotivationLevel"/>
+        <Class IRI="#Motivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Trigger"/>
+        <Class IRI="#Triggers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Barrier"/>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physiological_Trigger"/>
+        <Class IRI="#Triggers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+        <Class IRI="#Previous_Experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychological_Barrier"/>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snack"/>
+        <Class IRI="#Meal_As_Input"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Barrier"/>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Trigger"/>
+        <Class IRI="#Triggers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Goal"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight"/>
+        <Class IRI="#User_Attributes"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Contextual_Trigger"/>
+        <Class IRI="#Emotional_Trigger"/>
+        <Class IRI="#No_Trigger"/>
+        <Class IRI="#Physiological_Trigger"/>
+        <Class IRI="#Social_Trigger"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Main_Meal"/>
+        <Class IRI="#Snack"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Account"/>
+        <NamedIndividual IRI="#Account_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Account"/>
+        <NamedIndividual IRI="#Account_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Almond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Psychological_Barrier"/>
+        <NamedIndividual IRI="#Anxiety"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#App_Preference"/>
+        <NamedIndividual IRI="#App_Preference_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#App_Preference"/>
+        <NamedIndividual IRI="#App_Preference_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#Application_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#Application_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotional_Trigger"/>
+        <NamedIndividual IRI="#Boredom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meal_Type"/>
+        <NamedIndividual IRI="#Breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CalorieBudget"/>
+        <NamedIndividual IRI="#Calorie_Budget_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CalorieBudget"/>
+        <NamedIndividual IRI="#Calorie_Budget_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Cashew"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotional_Trigger"/>
+        <NamedIndividual IRI="#Celebration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Celiac_Disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Cod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StateOfTheHabit"/>
+        <NamedIndividual IRI="#Declining"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physiological_Trigger"/>
+        <NamedIndividual IRI="#Dehydration_Mistaken_For_Hunger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meal_Type"/>
+        <NamedIndividual IRI="#Dinner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contextual_Trigger"/>
+        <NamedIndividual IRI="#Easy_Access_To_Snacks_At_Home_Or_At_Work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Egg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Egg_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Trigger"/>
+        <NamedIndividual IRI="#Events_With_Tempting_Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity_Level"/>
+        <NamedIndividual IRI="#Extra_Active"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Fish_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Flexitarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StateOfTheHabit"/>
+        <NamedIndividual IRI="#Forming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Body_Composition_Goal"/>
+        <NamedIndividual IRI="#Gain_Weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habit"/>
+        <NamedIndividual IRI="#Habit_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habit"/>
+        <NamedIndividual IRI="#Habit_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habit"/>
+        <NamedIndividual IRI="#Habit_003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habit"/>
+        <NamedIndividual IRI="#Habit_004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Hazelnut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Heart_Disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Height"/>
+        <NamedIndividual IRI="#Height_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Height"/>
+        <NamedIndividual IRI="#Height_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotivationLevel"/>
+        <NamedIndividual IRI="#High"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Hypertension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical_Barrier"/>
+        <NamedIndividual IRI="#Illness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StateOfTheHabit"/>
+        <NamedIndividual IRI="#Inactive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Ingredient_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Ingredient_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Ingredient_003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Ingredient_004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Ingredient_005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Ingredient_006"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical_Barrier"/>
+        <NamedIndividual IRI="#Injury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IntermediateWeight"/>
+        <NamedIndividual IRI="#IntermediateWeight_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IntermediateWeight"/>
+        <NamedIndividual IRI="#IntermediateWeight_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Ketogenic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Environmental_Barrier"/>
+        <NamedIndividual IRI="#Lack_Of_Time_To_Cook_At_Home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity_Level"/>
+        <NamedIndividual IRI="#Lightly_Active"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotional_Trigger"/>
+        <NamedIndividual IRI="#Loneliness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Body_Composition_Goal"/>
+        <NamedIndividual IRI="#Lose_Weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotivationLevel"/>
+        <NamedIndividual IRI="#Low"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Low-carb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physiological_Trigger"/>
+        <NamedIndividual IRI="#Low_Blood_Sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Psychological_Barrier"/>
+        <NamedIndividual IRI="#Low_Motivation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meal_Type"/>
+        <NamedIndividual IRI="#Lunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Body_Composition_Goal"/>
+        <NamedIndividual IRI="#Maintain_Weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meal_As_Input"/>
+        <NamedIndividual IRI="#Meal_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meal_As_Input"/>
+        <NamedIndividual IRI="#Meal_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Mediterranean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy_Severity"/>
+        <NamedIndividual IRI="#Mild"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Milk_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy_Severity"/>
+        <NamedIndividual IRI="#Moderate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity_Level"/>
+        <NamedIndividual IRI="#Moderately_Active"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motivation"/>
+        <NamedIndividual IRI="#Motivation_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+        <NamedIndividual IRI="#No_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#No_Health_Conditions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#No_Special_Diet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#No_Trigger"/>
+        <NamedIndividual IRI="#No_Trigger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contextual_Trigger"/>
+        <NamedIndividual IRI="#Notifications_From_Delivery_Apps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Obesity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Trigger"/>
+        <NamedIndividual IRI="#Often_Family_Meals_With_Unhealthy_Dishes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Overweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#PCOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Paleo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Peanut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Peanut_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Barrier"/>
+        <NamedIndividual IRI="#Peer_Pressure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Pescaterian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Pistachio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Prefer_not_to_say"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Salmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity_Level"/>
+        <NamedIndividual IRI="#Sedentary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Sesame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Sesame_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy_Severity"/>
+        <NamedIndividual IRI="#Severe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Shellfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Shellfish_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meal_Type"/>
+        <NamedIndividual IRI="#Snack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Soy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Soybean_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotional_Trigger"/>
+        <NamedIndividual IRI="#Stress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StateOfTheHabit"/>
+        <NamedIndividual IRI="#Strong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Thyroid_Disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Environmental_Barrier"/>
+        <NamedIndividual IRI="#Travelling_At_All_Times"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Tuna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Health_Status"/>
+        <NamedIndividual IRI="#Underweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Barrier"/>
+        <NamedIndividual IRI="#Unsupportive_Family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#User_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#User_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User_Attributes"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User_Attributes"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User_Goal"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User_Goal"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User_Lifestyle_Factors"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User_Lifestyle_Factors"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Vegan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diet_Type"/>
+        <NamedIndividual IRI="#Vegetarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity_Level"/>
+        <NamedIndividual IRI="#Very_Active"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Walnut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contextual_Trigger"/>
+        <NamedIndividual IRI="#Watching_TV_While_Eating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weight"/>
+        <NamedIndividual IRI="#Weight_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weight"/>
+        <NamedIndividual IRI="#Weight_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+        <NamedIndividual IRI="#Weight_Gain_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+        <NamedIndividual IRI="#Weight_Loss_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+        <NamedIndividual IRI="#Weight_Maintainence_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Wheat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergy"/>
+        <NamedIndividual IRI="#Wheat_Allergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#cal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#cm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#cups"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#inch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#kJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#kg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#lbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotivationLevel"/>
+        <NamedIndividual IRI="#moderate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergen"/>
+        <NamedIndividual IRI="#Cow&apos;s_Milk"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#computesCalorieBudget"/>
+        <NamedIndividual IRI="#Application_001"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#logsMeal"/>
+        <NamedIndividual IRI="#Application_001"/>
+        <NamedIndividual IRI="#Meal_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#computesCalorieBudget"/>
+        <NamedIndividual IRI="#Application_002"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#logsMeal"/>
+        <NamedIndividual IRI="#Application_002"/>
+        <NamedIndividual IRI="#Meal_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Egg_Allergy"/>
+        <NamedIndividual IRI="#Egg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Fish_Allergy"/>
+        <NamedIndividual IRI="#Cod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Fish_Allergy"/>
+        <NamedIndividual IRI="#Salmon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Fish_Allergy"/>
+        <NamedIndividual IRI="#Tuna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <NamedIndividual IRI="#Strong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <NamedIndividual IRI="#Watching_TV_While_Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <NamedIndividual IRI="#Declining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <NamedIndividual IRI="#Boredom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <NamedIndividual IRI="#Declining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <NamedIndividual IRI="#Watching_TV_While_Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <NamedIndividual IRI="#Inactive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <NamedIndividual IRI="#No_Trigger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Height_001"/>
+        <NamedIndividual IRI="#cm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Height_002"/>
+        <NamedIndividual IRI="#cm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#IntermediateWeight_001"/>
+        <NamedIndividual IRI="#kg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#IntermediateWeight_002"/>
+        <NamedIndividual IRI="#kg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMotivation"/>
+        <NamedIndividual IRI="#Lightly_Active"/>
+        <NamedIndividual IRI="#Motivation_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Lobster"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Lobster"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Lobster"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Meal_001"/>
+        <NamedIndividual IRI="#Ingredient_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Meal_001"/>
+        <NamedIndividual IRI="#Ingredient_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Meal_001"/>
+        <NamedIndividual IRI="#Ingredient_003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMealType"/>
+        <NamedIndividual IRI="#Meal_001"/>
+        <NamedIndividual IRI="#Snack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Meal_002"/>
+        <NamedIndividual IRI="#Ingredient_004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Meal_002"/>
+        <NamedIndividual IRI="#Ingredient_005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#Meal_002"/>
+        <NamedIndividual IRI="#Ingredient_006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMealType"/>
+        <NamedIndividual IRI="#Meal_002"/>
+        <NamedIndividual IRI="#Dinner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Milk_Allergy"/>
+        <NamedIndividual IRI="#Cow&apos;s_Milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Peanut_Allergy"/>
+        <NamedIndividual IRI="#Peanut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Sesame_Allergy"/>
+        <NamedIndividual IRI="#Sesame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Shellfish_Allergy"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Shellfish_Allergy"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Shellfish_Allergy"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Soybean_Allergy"/>
+        <NamedIndividual IRI="#Soy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+        <NamedIndividual IRI="#Almond"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+        <NamedIndividual IRI="#Cashew"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+        <NamedIndividual IRI="#Hazelnut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+        <NamedIndividual IRI="#Pistachio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Tree_Nut_Allergy"/>
+        <NamedIndividual IRI="#Walnut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#experiencesBarrier"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Injury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccount"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Account_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAllergy"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Fish_Allergy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAppPreference"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#App_Preference_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCalorieBudget"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Calorie_Budget_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHabit"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Habit_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHabit"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Habit_003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMeal"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Meal_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#No_Experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserGoal"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserLifestyleFactors"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#User_001"/>
+        <NamedIndividual IRI="#Application_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#experiencesBarrier"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Lack_Of_Time_To_Cook_At_Home"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccount"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Account_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAllergy"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Shellfish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAppPreference"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#App_Preference_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCalorieBudget"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Calorie_Budget_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHabit"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Habit_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHabit"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Habit_004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMeal"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Meal_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Weight_Loss_Experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserGoal"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUserLifestyleFactors"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#User_002"/>
+        <NamedIndividual IRI="#Application_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+        <NamedIndividual IRI="#Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeight"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+        <NamedIndividual IRI="#Height_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIntermediateWeight"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+        <NamedIndividual IRI="#IntermediateWeight_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+        <NamedIndividual IRI="#Weight_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+        <NamedIndividual IRI="#Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeight"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+        <NamedIndividual IRI="#Height_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIntermediateWeight"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+        <NamedIndividual IRI="#IntermediateWeight_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+        <NamedIndividual IRI="#Weight_002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+        <NamedIndividual IRI="#Gain_Weight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+        <NamedIndividual IRI="#Lose_Weight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivityLevel"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_001"/>
+        <NamedIndividual IRI="#Lightly_Active"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiet"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_001"/>
+        <NamedIndividual IRI="#Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHealthStatus"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_001"/>
+        <NamedIndividual IRI="#PCOS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivityLevel"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_002"/>
+        <NamedIndividual IRI="#Moderately_Active"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiet"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_002"/>
+        <NamedIndividual IRI="#No_Special_Diet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHealthStatus"/>
+        <NamedIndividual IRI="#User_Lifestyle_Factors_002"/>
+        <NamedIndividual IRI="#Overweight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Weight_001"/>
+        <NamedIndividual IRI="#kg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Weight_002"/>
+        <NamedIndividual IRI="#kg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <NamedIndividual IRI="#Wheat_Allergy"/>
+        <NamedIndividual IRI="#Wheat"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEmail"/>
+        <NamedIndividual IRI="#Account_001"/>
+        <Literal>mary_mary@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPassword"/>
+        <NamedIndividual IRI="#Account_001"/>
+        <Literal>abdxvdedbfb2he1.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUsername"/>
+        <NamedIndividual IRI="#Account_001"/>
+        <Literal>mary_mary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEmail"/>
+        <NamedIndividual IRI="#Account_002"/>
+        <Literal>john.doe@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPassword"/>
+        <NamedIndividual IRI="#Account_002"/>
+        <Literal>ThisIsSoSecret.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUsername"/>
+        <NamedIndividual IRI="#Account_002"/>
+        <Literal>John_Doe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+        <NamedIndividual IRI="#App_Preference_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+        <NamedIndividual IRI="#App_Preference_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isGeneratingMeals"/>
+        <NamedIndividual IRI="#App_Preference_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isTrackingMeals"/>
+        <NamedIndividual IRI="#App_Preference_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+        <NamedIndividual IRI="#App_Preference_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+        <NamedIndividual IRI="#App_Preference_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isGeneratingMeals"/>
+        <NamedIndividual IRI="#App_Preference_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isTrackingMeals"/>
+        <NamedIndividual IRI="#App_Preference_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Application_001"/>
+        <Literal>Nutrition App</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVersion"/>
+        <NamedIndividual IRI="#Application_001"/>
+        <Literal>&quot;1&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Application_002"/>
+        <Literal>Nutrition App 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasVersion"/>
+        <NamedIndividual IRI="#Application_002"/>
+        <Literal>&quot;1.11&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRemainingCalories"/>
+        <NamedIndividual IRI="#Calorie_Budget_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTargetCalories"/>
+        <NamedIndividual IRI="#Calorie_Budget_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRemainingCalories"/>
+        <NamedIndividual IRI="#Calorie_Budget_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTargetCalories"/>
+        <NamedIndividual IRI="#Calorie_Budget_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequency"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <Literal>Binge-eating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <Literal>negative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#Habit_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-26T11:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequency"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <Literal>Binge eating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <Literal>negative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#Habit_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequency"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <Literal>Binge-eating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <Literal>negative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#Habit_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFrequency"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <Literal>Binge-eating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <Literal>positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#Habit_004"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Height_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">168.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Height_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">198.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Ingredient_001"/>
+        <Literal>oats</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Ingredient_002"/>
+        <Literal>milk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Ingredient_003"/>
+        <Literal>honey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Ingredient_004"/>
+        <Literal>steak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Ingredient_005"/>
+        <Literal>potatoes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Ingredient_006"/>
+        <Literal>asparagus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#IntermediateWeight_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">61.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#IntermediateWeight_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#IntermediateWeight_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">92.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#IntermediateWeight_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalories"/>
+        <NamedIndividual IRI="#Meal_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Meal_001"/>
+        <Literal>oatmeal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCalories"/>
+        <NamedIndividual IRI="#Meal_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Meal_002"/>
+        <Literal>steak with potatoes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImportantEventComingUp"/>
+        <NamedIndividual IRI="#Motivation_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInitialMotivation"/>
+        <NamedIndividual IRI="#Motivation_001"/>
+        <Literal>yes!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChildren"/>
+        <NamedIndividual IRI="#User_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#User_001"/>
+        <Literal>Mary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isNursing"/>
+        <NamedIndividual IRI="#User_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPregnant"/>
+        <NamedIndividual IRI="#User_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChildren"/>
+        <NamedIndividual IRI="#User_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#User_002"/>
+        <Literal>John Doe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isNursing"/>
+        <NamedIndividual IRI="#User_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPregnant"/>
+        <NamedIndividual IRI="#User_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#User_Attributes_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#User_Attributes_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesiredWeight"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">64.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+        <NamedIndividual IRI="#User_Goal_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesiredWeight"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+        <NamedIndividual IRI="#User_Goal_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">-1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Weight_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">62.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#Weight_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Weight_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <NamedIndividual IRI="#Weight_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAccount"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAllergy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCalorieBudget"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConsumedCaloriesToday"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDiet"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGender"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHabit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHealthStatus"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInterferenceWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIntermediateWeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLifestyle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMotivation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMotivationLevel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUserGoal"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWaterIntake"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWeightManagementExperience"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBasedOn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#logsMeal"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causesAllergy"/>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSeverity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasUnit"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasWaterIntake"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAccount"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#computesCalorieBudget"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasAccount"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasAllergy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasAppPreference"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasSeverity"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasUnit"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasUserGoal"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasUserLifestyleFactors"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasWaterIntake"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasWeightManagementExperience"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#uses"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#computesCalorieBudget"/>
+        <Class IRI="#Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsIngredient"/>
+        <Class IRI="#Meal_As_Input"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#experiencesBarrier"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccount"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAllergy"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAppPreference"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+        <Class IRI="#User_Goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCalorieBudget"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConsumedCaloriesToday"/>
+        <Class IRI="#Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConsumedCaloriesToday"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiet"/>
+        <Class IRI="#User_Lifestyle_Factors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <Class IRI="#Habit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHabit"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHealthStatus"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHeight"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Meal_As_Input"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredientWeight"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInterferenceWith"/>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIntermediateWeight"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeal"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMealType"/>
+        <Class IRI="#Meal_As_Input"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMotivation"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMotivationLevel"/>
+        <Class IRI="#Motivation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSeverity"/>
+        <Class IRI="#Allergy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#Habit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <Class IRI="#Habit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Height"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#IntermediateWeight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Weight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUserGoal"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUserLifestyleFactors"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWaterIntake"/>
+        <Class IRI="#Diet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWeight"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWeightManagementExperience"/>
+        <Class IRI="#Previous_Experience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBasedOn"/>
+        <Class IRI="#CalorieBudget"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#logsMeal"/>
+        <Class IRI="#Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <Class IRI="#Allergy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#computesCalorieBudget"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#experiencesBarrier"/>
+        <Class IRI="#Barrier_From_Achieving_Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccount"/>
+        <Class IRI="#Account"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAllergy"/>
+        <Class IRI="#Allergy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAppPreference"/>
+        <Class IRI="#App_Preference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyGoal"/>
+        <Class IRI="#Body_Composition_Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCalorieBudget"/>
+        <Class IRI="#CalorieBudget"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiet"/>
+        <Class IRI="#Diet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEffectOnGoal"/>
+        <Class IRI="#User_Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHabit"/>
+        <Class IRI="#Habit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHealthStatus"/>
+        <Class IRI="#Health_Status"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHeight"/>
+        <Class IRI="#Height"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInterferenceWith"/>
+        <Class IRI="#Goals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIntermediateWeight"/>
+        <Class IRI="#IntermediateWeight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeal"/>
+        <Class IRI="#Meal_As_Input"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMealType"/>
+        <Class IRI="#Meal_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMotivation"/>
+        <Class IRI="#Motivation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMotivationLevel"/>
+        <Class IRI="#MotivationLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPreviousExperience"/>
+        <Class IRI="#Previous_Experience"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSeverity"/>
+        <Class IRI="#Allergy_Severity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#StateOfTheHabit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTrigger"/>
+        <Class IRI="#Triggers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUserAttributes"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUserGoal"/>
+        <Class IRI="#User_Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUserLifestyleFactors"/>
+        <Class IRI="#User_Lifestyle_Factors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWeight"/>
+        <Class IRI="#Weight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWeightManagementExperience"/>
+        <Class IRI="#PreviousWeightManagementExperience"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBasedOn"/>
+        <Class IRI="#User_Attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#logsMeal"/>
+        <Class IRI="#Meal_As_Input"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#triggeredByAllergen"/>
+        <Class IRI="#Allergen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Application"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCalories"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasChildren"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDesiredWeight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEmail"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFrequency"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasHealthCondition"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasImportantEventComingUp"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasNumberOfMealsPerDay"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasNumberOfSnacksPerDay"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRemainingCalories"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTargetCalories"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasUsername"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isNursing"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isTrackingMeals"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasAge"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasChildren"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasDateOfBirth"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasDesiredWeight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasEmail"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNumberOfMealsPerDay"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNumberOfSnacksPerDay"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasPassword"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasUsername"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasVersion"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasWorkSchedule"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isNursing"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isPregnant"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isTrackingMeals"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+        <Class IRI="#App_Preference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#User_Attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCalories"/>
+        <Class IRI="#Meal_As_Input"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasChildren"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDateOfBirth"/>
+        <Class IRI="#User_Attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDesiredWeight"/>
+        <Class IRI="#User_Goal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmail"/>
+        <Class IRI="#Account"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFrequency"/>
+        <Class IRI="#Habit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHealthCondition"/>
+        <Class IRI="#Health_Status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasImportantEventComingUp"/>
+        <Class IRI="#Motivation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInitialMotivation"/>
+        <Class IRI="#Motivation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Habit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Ingredient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Meal_As_Input"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumberOfMealsPerDay"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumberOfSnacksPerDay"/>
+        <Class IRI="#Diet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+        <Class IRI="#User_Goal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPassword"/>
+        <Class IRI="#Account"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRemainingCalories"/>
+        <Class IRI="#CalorieBudget"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetCalories"/>
+        <Class IRI="#CalorieBudget"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetDate"/>
+        <Class IRI="#User_Goal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+        <Class IRI="#App_Preference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#Habit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUsername"/>
+        <Class IRI="#Account"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#Height"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#IntermediateWeight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#Weight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVersion"/>
+        <Class IRI="#Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isGeneratingMeals"/>
+        <Class IRI="#App_Preference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <Class IRI="#Goals"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <Class IRI="#Habit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <Class IRI="#IntermediateWeight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <Class IRI="#Motivation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <Class IRI="#Weight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isNursing"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isPregnant"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isTrackingMeals"/>
+        <Class IRI="#App_Preference"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#getMatchedWithPeopleWithSimilarGoals"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCalories"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasChildren"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDateOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDesiredWeight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFrequency"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHealthCondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasImportantEventComingUp"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInitialMotivation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberOfMealsPerDay"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberOfSnacksPerDay"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPaceToReachTarget"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPassword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRemainingCalories"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetCalories"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeSpentOnApp"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUsername"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWorkSchedule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isGeneratingMeals"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isMeasuredOnDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isNursing"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isPregnant"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isTrackingMeals"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Account</IRI>
+        <Literal xml:lang="en">User account-related information such as login credentials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Activity_Level</IRI>
+        <Literal xml:lang="en">The user&apos;s physical activity level, used to estimate energy requirements and personalize recommendations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Allergen</IRI>
+        <Literal>Foods that can cause allergies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Allergy</IRI>
+        <Literal xml:lang="en">A user&apos;s known allergies, such as food, relevant for filtering diet plans. Has instances of allergy, the nine most common ones, taken from the USDA website: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-allergies-big-9#:~:text=These%20eight%20foods%20account%20for,%2C%20peanuts%2C%20wheat%20and%20soybeans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Allergy_Severity</IRI>
+        <Literal xml:lang="en">Intensity or seriousness of a user&apos;s allergic reaction, used to personalize diet recommendations and warnings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#App_Preference</IRI>
+        <Literal xml:lang="en">User preferences for functionality in a nutrition app, such as notifications or interface design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Application</IRI>
+        <Literal xml:lang="en">The system used by the user to support nutrition or health goals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Barrier_From_Achieving_Goal</IRI>
+        <Literal>Possible barriers that prevent the user from achieving the goal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Body_Composition_Goal</IRI>
+        <Literal xml:lang="en">Represents a user&apos;s goal related to body composition or health, such as weight loss, weight gain or weight maintenance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CalorieBudget</IRI>
+        <Literal>The amount of calories a user can eat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contextual_Trigger</IRI>
+        <Literal xml:lang="en">Trigger that occurs at a certain time of the day, in certain contexts (eg, in the evening, when watching TV)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diet</IRI>
+        <Literal xml:lang="en">A specific dietary pattern followed by the user.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diet_Type</IRI>
+        <Literal>Possible diets that a user can follow.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emotional_Trigger</IRI>
+        <Literal xml:lang="en">Trigger occurring when feeling stressed, boredom, anxiety etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Environmental_Barrier</IRI>
+        <Literal>Example: having to travel at all time, lack of time to cook at home</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Extra_Active</IRI>
+        <Literal>Very intense daily exercise + physical job (e.g., athlete, construction).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gender</IRI>
+        <Literal xml:lang="en">Represents the user&apos;s gender identity, relevant for personalizing nutritional guidelines and recommendations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Goals</IRI>
+        <Literal>Description of the general goal (weight gain/loss/maintenance) and more granular goal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Habit</IRI>
+        <Literal xml:lang="en">User&apos;s habits affecting their weight management journey in a positive or negative manner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Health_Status</IRI>
+        <Literal>Description of a user&apos;s health conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Height</IRI>
+        <Literal xml:lang="en">Represents a user&apos;s body height measurement, usually expressed in centimeters or inches.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ingredient</IRI>
+        <Literal>Ingredient belonging to a meal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lightly_Active</IRI>
+        <Literal>Light exercise/sports 1–3 days per week. Short walks, chores, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Meal_As_Input</IRI>
+        <Literal>Possible meal input in the app.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Meal_Type</IRI>
+        <Literal>Type of meal: breakfast, lunch or dinner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moderately_Active</IRI>
+        <Literal>Moderate exercise/sports 3–5 days/week. Regular active lifestyle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motivation</IRI>
+        <Literal xml:lang="en">The internal or external factors that drive the user to pursue dietary changes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Physical_Barrier</IRI>
+        <Literal>Example: injuries, illness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Physiological_Trigger</IRI>
+        <Literal xml:lang="en">Trigger that occurs when the user os feeling hungry or has low energy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreviousWeightManagementExperience</IRI>
+        <Literal xml:lang="en">User&apos;s previous experiences with weight management.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Previous_Experience</IRI>
+        <Literal xml:lang="en">Past behaviors that may influence current behavior change strategies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Psychological_Barrier</IRI>
+        <Literal>Example: low motivation, anxiety</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sedentary</IRI>
+        <Literal>Little or no exercise. Desk job. Minimal physical activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Social_Barrier</IRI>
+        <Literal>Example: unsupportive family, peer pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Social_Trigger</IRI>
+        <Literal xml:lang="en">Trigger that occurs when going out, attending parties, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Triggers</IRI>
+        <Literal xml:lang="en">Possible triggers that can lead to habits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Unit</IRI>
+        <Literal xml:lang="en">Unit of measure associated with a recorded value, such as kilograms, kcal, or liters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User</IRI>
+        <Literal xml:lang="en">Individual who interacts with the nutrition or health application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User_Attributes</IRI>
+        <Literal xml:lang="en">Key personal characteristics of the user, such as age, height, weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User_Goal</IRI>
+        <Literal xml:lang="en">Represents a specific objective set by the user, such as losing, gaining or maintaing weight, the desired weight that they want to reach and the pace per week with which they lose the weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User_Lifestyle_Factors</IRI>
+        <Literal>Description of the users&apos; motivation, current lifestyle, diet and health state.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Very_Active</IRI>
+        <Literal>Hard exercise/sports 6–7 days/week. Manual labor or intense workouts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weight</IRI>
+        <Literal xml:lang="en">Represents a user&apos;s body weight measurement, typically expressed in kilograms or pounds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#causesAllergy</IRI>
+        <Literal xml:lang="en">Links a food to the allergy that it causes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#computesCalorieBudget</IRI>
+        <Literal xml:lang="en">Links the application to the user&apos;s attributes (weight, height, gender) to compute the amount of calories the user should eat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#getMatchedWithPeopleWithSimilarGoals</IRI>
+        <Literal>User can be matched with people having similar goals as them, with the goal of motivating each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAccount</IRI>
+        <Literal xml:lang="en">Links the user to their account credentials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAge</IRI>
+        <Literal>The age of the user.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAllergy</IRI>
+        <Literal xml:lang="en">Links a user to an allergy they have, such as peanut allergy or fish allergy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAppPreference</IRI>
+        <Literal xml:lang="en">Links user to their set preferences for the application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBodyGoal</IRI>
+        <Literal xml:lang="en">Links the user to their body composition goal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasConsumedCaloriesToday</IRI>
+        <Literal xml:lang="en">Links the user to the amount of calories consumed in a day.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEffectOnGoal</IRI>
+        <Literal>Links the habit to the goal is affecting in a positive or negative way.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFrequency</IRI>
+        <Literal xml:lang="en">The number of times per week a habit is performed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPreviousExperience</IRI>
+        <Literal xml:lang="en">Describes the user&apos;s previous experience with weight management.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSeverity</IRI>
+        <Literal xml:lang="en">Describes the severity of the food allergy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasType</IRI>
+        <Literal xml:lang="en">The type of habit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUnit</IRI>
+        <Literal xml:lang="en">Gives each measurement a unit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUserAttributes</IRI>
+        <Literal xml:lang="en">Links the user to the attributes related to height, weight and gender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUserGoal</IRI>
+        <Literal xml:lang="en">Links the user to the detailed goal of their choice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUserLifestyleFactors</IRI>
+        <Literal xml:lang="en">Links the user to the lifestyle factors, such as motivation, their current health and diet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWaterIntake</IRI>
+        <Literal xml:lang="en">Links the diet with the water intake.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWeightManagementExperience</IRI>
+        <Literal xml:lang="en">Links the user&apos;s previous experience with nutrition apps to the enumerator of possible types of weight management experiences.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isGeneratingMeals</IRI>
+        <Literal>The application could either generate meals, or generate meals and track them as well.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isTrackingMeals</IRI>
+        <Literal>The application could only track meals, or track meals and generate them as well.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#triggeredByAllergen</IRI>
+        <Literal xml:lang="en">Links an allergy to the food that triggered the allergy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#uses</IRI>
+        <Literal xml:lang="en">Links the user to the application.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
